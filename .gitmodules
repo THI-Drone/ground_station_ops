@@ -1,0 +1,3 @@
+[submodule "Ground_Station"]
+	path = Ground_Station
+	url = git@github.com:THI-Drone/Ground_Station.git
