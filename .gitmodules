@@ -1,3 +1,6 @@
 [submodule "Ground_Station"]
 	path = Ground_Station
 	url = git@github.com:THI-Drone/Ground_Station.git
+[submodule "Ground_Station_Bridge/telemetry_package"]
+	path = Ground_Station_Bridge/telemetry_package
+	url = git@github.com:THI-Drone/telemetry_package.git
