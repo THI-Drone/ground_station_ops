@@ -5,5 +5,5 @@ if [ ! -f "Ground_Station/web/frontend/.env" ]; then
   exit 1
 fi
 
-docker build -t ground_station ./Ground_Station/web
+docker build -t ground_station ./Ground_Station
 docker build -t ground_station_bridge ./Ground_Station_Bridge
