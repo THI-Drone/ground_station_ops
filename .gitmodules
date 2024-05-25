@@ -1,12 +1,12 @@
 [submodule "Ground_Station"]
 	path = Ground_Station
-	url = git@github.com:THI-Drone/Ground_Station.git
+	url = https://github.com/THI-Drone/Ground_Station.git
 [submodule "Ground_Station_Bridge/src/common_package_py"]
 	path = Ground_Station_Bridge/src/common_package_py
-	url = git@github.com:THI-Drone/common_package_py.git
+	url = https://github.com/THI-Drone/common_package_py.git
 [submodule "Ground_Station_Bridge/src/interfaces"]
 	path = Ground_Station_Bridge/src/interfaces
-	url = git@github.com:THI-Drone/interfaces.git
+	url = https://github.com/THI-Drone/interfaces.git
 [submodule "Ground_Station_Bridge/src/telemetry_package"]
 	path = Ground_Station_Bridge/src/telemetry_package
-	url = git@github.com:THI-Drone/telemetry_package.git
+	url = https://github.com/THI-Drone/telemetry_package.git
