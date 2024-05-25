@@ -4,3 +4,6 @@
 [submodule "Ground_Station_Bridge/telemetry_package"]
 	path = Ground_Station_Bridge/telemetry_package
 	url = git@github.com:THI-Drone/telemetry_package.git
+[submodule "Ground_Station_Bridge/interfaces"]
+	path = Ground_Station_Bridge/interfaces
+	url = git@github.com:THI-Drone/interfaces.git
