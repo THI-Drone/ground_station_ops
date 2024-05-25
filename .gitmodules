@@ -7,3 +7,6 @@
 [submodule "Ground_Station_Bridge/interfaces"]
 	path = Ground_Station_Bridge/interfaces
 	url = git@github.com:THI-Drone/interfaces.git
+[submodule "Ground_Station_Bridge/common_package_py"]
+	path = Ground_Station_Bridge/common_package_py
+	url = git@github.com:THI-Drone/common_package_py.git
