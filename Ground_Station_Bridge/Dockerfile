@@ -16,3 +16,4 @@ ENV PYTHONUNBUFFERED=1
 
 # Start telemetry node 
 ENTRYPOINT ["/bin/bash", "-c", "source install/setup.bash && ros2 run telemetry_package telemetry_node"]
+
