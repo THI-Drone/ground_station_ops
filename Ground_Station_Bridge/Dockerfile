@@ -14,6 +14,15 @@ RUN . /opt/ros/humble/setup.sh && colcon build ${@} --symlink-install --cmake-ar
 # To get Python print in CLI
 ENV PYTHONUNBUFFERED=1
 
+# Create directory to store the bags only if it does not already exist 
+RUN if [ ! -d "~/thi_drone_bags/" ]; then mkdir ~/thi_drone_bags/; fi 
+
+# Set the name of the bag to timestamp at execution
+ENV ROSBAG_NAME=$now
+
+# Open another shell and start ros2 bag on it, saving the generated bag with the previously generated timestamp
+RUN gnome-terminal --tab -- ros2 bag record -e uav_ -o $ROSBAG_NAME
+
 # Start telemetry node 
 ENTRYPOINT ["/bin/bash", "-c", "source install/setup.bash && ros2 run telemetry_package telemetry_node"]
 
