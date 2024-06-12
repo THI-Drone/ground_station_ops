@@ -22,7 +22,3 @@ ENV ROSBAG_NAME=$now
 
 # Open another shell and start ros2 bag on it, saving the generated bag with the previously generated timestamp
 RUN gnome-terminal --tab -- ros2 bag record -e uav_ -o $ROSBAG_NAME
-
-# Start telemetry node 
-ENTRYPOINT ["/bin/bash", "-c", "source install/setup.bash && ros2 run telemetry_package telemetry_node"]
-
